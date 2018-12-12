@@ -6,4 +6,9 @@ app.use(bodyParser.json());
 
 require('./routes/invitationRoutes')(app);
 
-app.listen(5000);
+const PORT = process.env.PORT || 5000;
+var server = app.listen(PORT);
+
+exports.closeServer = function(){
+  server.close();
+};
