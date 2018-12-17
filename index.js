@@ -7,4 +7,4 @@ exports.closeServer = function(){
   server.close();
 };
 
-module.exports = server;
+//module.exports = server;

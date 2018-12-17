@@ -1,7 +1,7 @@
 {
   "name": "invitations",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proyeto para probar un servidor node con test dockerizado en integración continua",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/divae/invitations.git"
   },
-  "author": "",
+  "author": "Estela Medrano Jiménez",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/divae/invitations/issues"
