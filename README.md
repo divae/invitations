@@ -26,7 +26,7 @@ $ sudo docker build -t invitations .
 ```
 ##### Arrancar la aplicación
 ```sh
-$ sudo docker run invitations
+$ sudo docker run -it -p 5000:5000  invitations
 ```
 
 Visualización en local http://localhost:5000/
